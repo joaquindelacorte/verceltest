@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Unilever Shilling";
+  text-decoration: none;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+  color: #353535;
+  font-size: 50px;
+  font-family: "Unilever Shilling", serif;
+} 
+
+h2{
+  position: relative;
+  text-align: center;
+  color: #ff4655;
+  font-size: 50px;
+  font-family: "Unilever Shilling", serif;
+
+}
+
+ /* 1 */
+ .btn-1 {
+  background: rgb(6,14,131);
+  background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+  border: none;
+}
+.btn-1:hover {
+   background: rgb(0,3,255);
+background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+}
+ /* 2 */
+ .btn-2 {
+  background: rgb(6,14,131);
+  background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+  border: none;
+}
+.btn-2:hover {
+   background: rgb(0,3,255);
+background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+}
+
+
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Unilever Shilling', sans-serif;
+  font-weight: 500;
+  background: #8bb2d6;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+
+.full-screen{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.full-screen video{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  
+}
+
+.content a{
+  display: block;
+  margin: 3px auto;
+  width: 250px;
+  height: 54px;
+  line-height: 54px;
+  background: #ff4655;
+  text-align: center;
+  color: #ececec;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: .4s linear;
+  margin-top: 800px;
+
+  }
+
+.logo{
+  size: 50px;
+  size-adjust: ;
+}
+
+.content2 a{
+  display: block;
+  width: 250px;
+  height: 54px;
+  line-height: 54px;
+  background: #ff4655;
+  text-align: center;
+  color: #ececec;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: .4s linear;
+  margin-bottom: 10%;
+ 
+}
+.content a:hover{
+  background: #0f1923;
+}
+
+.seleccion{
+  margin: 5px;
+  margin-bottom: 10%;
+  
+}
